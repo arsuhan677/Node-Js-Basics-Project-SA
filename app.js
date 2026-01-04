@@ -145,5 +145,6 @@ app.delete("/product/:id", (req, res) => {
 
 
 app.listen(port, () => {
-  console.log(`Application runnig at ${port}`);
-});
+  console.log(`Application is runnig on the port ${port}`);
+})
+
